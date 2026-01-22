@@ -8,13 +8,21 @@ body{
   margin-width:0;
 }
 
-h1,h2,h3{b{
+h1,h2{
   .Montserrat-bold{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}}}
+}}
+
+h3{
+  .Montserrat-medium{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}}
 
 p{
 .neuton-regular {
