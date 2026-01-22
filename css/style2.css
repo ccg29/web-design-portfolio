@@ -8,6 +8,12 @@ body{
   margin-width:0;
 }
 
+img{
+  display:block;
+  max-inline-size:100;
+   }
+  
+
 h1,h2{
   .Montserrat-bold{
   font-family: "Montserrat", sans-serif;
