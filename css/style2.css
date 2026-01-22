@@ -5,8 +5,8 @@ body{
   font-family: "Montserrat", "Neuton"; 
   font-size:1.25; 
   line-height: 1.5;
+  margin-width:0;
 }
-
 
 h1,h2,h3{
   font-family: "Montserrat", sans-serif;
