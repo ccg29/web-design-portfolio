@@ -9,11 +9,12 @@ body{
 }
 
 h1,h2,h3{b{
+  .Montserrat-bold{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}}
+}}}
 
 p{
 .neuton-regular {
@@ -30,6 +31,19 @@ p{b{
 }}}
 
 p{i{
+.neuton-regular-italic {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
+}}}
+
+li{b{
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}}}
+li{i{
 .neuton-regular-italic {
   font-family: "Neuton", serif;
   font-weight: 400;
