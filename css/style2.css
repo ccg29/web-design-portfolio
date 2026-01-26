@@ -12,6 +12,7 @@ body{
 header{
   text-align: center;
   line-height:1.1;
+  
 }
 
 h1,h2{
@@ -25,10 +26,14 @@ h1,h2{
 
 h1{
   font-size:3rem;
+  color: #B4CCCF;
+  background-color: #28536B;
 }
 
 h2{
   font-size:2.5rem;
+  background-color: #FFC49B;
+  color: #F3A5BC;
 }
 
 h3{
@@ -41,15 +46,25 @@ h3{
 
 h3{
   font-size:2rem;
+  color: #CBE6C7;
+  background-color: #8FB78F; 
 }
 
 h4{
   font-size:1.5rem;
+  color:#28536B;
+  bacground-color:#B4CCCF;
 }
 
 h5{
   font-size:1.25rem;
+  color: #FFC49B;
+  background-color: #F3A5BC;
 }
+ h6{
+   color: #8FB78F; 
+   background-color: #CBE6C7;
+ }
 
 h6,p{
   font-size:1rem;
