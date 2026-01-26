@@ -28,11 +28,17 @@ h1{
   font-size:3rem;
   color: #0F7055;
 }
+/* 
+heading 1's color will be to present the page's title name
+*/ 
 
 h2{
   font-size:2.5rem;
   color: #22443B;
 }
+/*
+heading 2 will present each section of the website page 
+*/
 
 h3{
   .Montserrat-medium-500{
@@ -47,6 +53,10 @@ h3{
   color: #EC1D25;
   background-color:#F199BF80; 
 }
+/*
+  header 3 will be for lists and navigation -- TBD on changing color for navigation for when that section is covered
+*/
+
 
 h4{
   font-size:1.5rem;
