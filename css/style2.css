@@ -19,19 +19,19 @@ body{
 
 @media(min-width:390px){
   h1{
-    color:#381932
+    color:#5F4A8B
   }
 }
 
 @media (min-width:768px){
   body{
-    background-color:#F0E7D5
+    background-color:#FFD2A0
   }
 }
 
 @media(min-width:1200px){
-  h1{
-    color:#670626
+  body{
+    background-color:#9457EB
   }
 }
 
