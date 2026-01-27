@@ -12,6 +12,7 @@ body{
   width: device-width;
   zoom: 1; 
 }
+/* Lab 4.1 — mobile-first layout + media query */
 
 @media(min-width:390px){
   body{
