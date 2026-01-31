@@ -73,8 +73,8 @@ h3{
 
 h3{
   font-size:2rem;
-  color: #EAE6DB;
-  background-color:#22443B80; 
+  color: #F3E8DA;
+  background-color:#21392D80; 
 }
 /*
   header 3 will be for lists and navigation -- TBD on changing color for navigation for when that section is covered
@@ -147,7 +147,7 @@ img { max-width: 100%; height: auto; }
 /* incorporating a division with the footer */ 
 footer {
   background-color: ##F8BEAD;
-  font-color:#21392D; 
+  color:#21392D; 
   text-align: center;
   padding: 8;
 }
