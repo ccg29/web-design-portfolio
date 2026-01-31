@@ -16,8 +16,8 @@ header {
 }
 
 a:focus, button:focus {
-  outline: 3px solid currentColor;
-  outline-offset: 3px;
+  outline: 10px solid currentColor;
+  outline-offset: 10px;
 }
 @viewpoint{
   width: device-width;
