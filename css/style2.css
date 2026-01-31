@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 
+/*  Lab 4.3 - background & font colors adjusted to solve contrast ratio */ 
 body{
   font-family: "Montserrat", "Neuton"; 
   font-size:1.25; 
   line-height: 1.5;
   margin-width:0;
-  background-color: #EAE6DB;
+  background-color: #F3E8DA;
 } 
+header {
+  background-color: #21392D;
+  font-color:#F3E8DA; 
+  text-align: center;
+  line-height:1.1;
+  padding: 10;
+}
+
 @viewpoint{
   width: device-width;
   zoom: 1; 
@@ -16,26 +25,18 @@ body{
 
 @media(min-width:390px){
   body{
-    background-color:#FFAD4F
   }
 }
 
 @media (min-width:768px){
   body{
-    background-color:#EFD468
+    
   }
 }
 
 @media(min-width:1200px){
   body{
-    background-color:#EFE3B3
   }
-}
-
-header{
-  text-align: center;
-  line-height:1.1;
-  
 }
 
 h1,h2{
@@ -143,5 +144,14 @@ li{i{
 }}}
 
 img { max-width: 100%; height: auto; }
+
+/* incorporating a division with the footer */ 
+footer {
+  background-color: ##F8BEAD;
+  font-color:#21392D; 
+  text-align: center;
+  padding: 8;
+}
+
 
 
