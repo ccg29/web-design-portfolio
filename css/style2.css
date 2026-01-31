@@ -10,8 +10,6 @@ body{
   background-color: #F3E8DA;
 } 
 header {
-  background-color: #21392D;
-  font-color:#F3E8DA; 
   text-align: center;
   line-height:1.1;
   padding: 10;
@@ -74,7 +72,7 @@ h3{
 h3{
   font-size:2rem;
   color: #F3E8DA;
-  background-color:#21392D80; 
+  background-color:#21392D; 
 }
 /*
   header 3 will be for lists and navigation -- TBD on changing color for navigation for when that section is covered
@@ -146,8 +144,7 @@ img { max-width: 100%; height: auto; }
 
 /* incorporating a division with the footer */ 
 footer {
-  background-color: ##F8BEAD;
-  color:#21392D; 
+  background-color: #F8BEAD;
   text-align: center;
   padding: 8;
 }
