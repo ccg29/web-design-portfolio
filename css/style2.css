@@ -27,20 +27,22 @@ a:focus, button:focus {
 
 @media(min-width:390px){
   body{
+    background-color:#FFAD4F
   }
 }
 
 @media (min-width:768px){
   body{
+    background-color:#EFD468
     
   }
 }
 
 @media(min-width:1200px){
   body{
+    background-color:#F3E8DA
   }
 }
-
 h1,h2{
   .Montserrat-bold{
   font-family: "Montserrat", sans-serif;
