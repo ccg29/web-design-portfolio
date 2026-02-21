@@ -1,5 +1,5 @@
 let username; 
-document.getElementById('mySubmit').onclick = function(){
-  username = document.getElementById('myText').value; 
-  document.getElementById('myH1').textContent = 'Hi there ${username}!'
+document.querySelector('button').onclick = function(){
+  username = document.querySelector('input').value; 
+  document.querySelector('H1').textContent = 'Hi there ${username}!'
 }
