@@ -1,4 +1,4 @@
-const readMoreBttn = document.queryselector('.read-more-bttn');
+const readMoreBttn = document.queryselector('.more-text-bttn');
 const text = document.queryselector('.text'); 
 
 readMoreBttn.addEventListener('click',(e)=>{
