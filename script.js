@@ -1,5 +1,5 @@
-const readMoreBttn = document.getElementByID('more-text-bttn');
-const text = document.getElementByID('text'); 
+const readMoreBttn = document.querySelector('.more-text-bttn');
+const text = document.querySelector('.text'); 
 
 readMoreBttn.addEventListener('click',(e)=>{
   text.classList.toggle('show-more');
