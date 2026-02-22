@@ -109,7 +109,7 @@ This is for the portofolio read more section
 .moreText{
   display:none;
 }
-.show-more.moreText{
+.text.show-more{
   display:inline;
 }
 
