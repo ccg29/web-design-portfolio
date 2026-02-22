@@ -3,9 +3,9 @@ const text = document.getElementByID('text');
 
 readMoreBttn.addEventListener('click',(e)=>{
   text.classList.toggle('show-more');
-  if(readMoreBttn.innerText === 'Read-More'{
+  if(readMoreBttn.innerText === 'Read-More'){
     readMoreBttn.innerText = 'Read Less';
   }else{
     readMoreBttn.innerText = 'Read More';
   }
-}
+})
