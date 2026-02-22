@@ -103,6 +103,12 @@ h5{
 h6,p{
   font-size:1rem;
 }
+/*
+This is for the portofolio read more section 
+*/
+.moreText{
+  display:none;
+}
 
 section{
   margin-block: 50px;
