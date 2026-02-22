@@ -109,6 +109,9 @@ This is for the portofolio read more section
 .moreText{
   display:none;
 }
+.text.show-more.moreText{
+  display:inline;
+}
 
 section{
   margin-block: 50px;
@@ -158,10 +161,6 @@ footer {
   background-color: #F8BEAD;
   text-align: center;
   padding: 8;
-}
-
-.text.show-more.moreText{
-  display: inline; 
 }
 
 
