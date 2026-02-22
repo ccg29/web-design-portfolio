@@ -1,11 +1,11 @@
-document.title = "Mini-Demo| Cami's Corner";
+const readMoreBttn = document.queryselector('.read-more-bttn');
+const text = document.queryselector('.text'); 
 
-const welcomeMsg = document.getElementById("myH1");
-
-const useranme = document.getElementById ('myusername");
-
-let username; 
-document.querySelector('button').onclick = function(){
-  username = document.querySelector('input').value; 
-  document.querySelector('H1').textContent = 'Hi there ${username}!'
+readMoreBttn.addEventListener('click',(e)=>{
+  text.classList.toggle('show-more');
+  if(readMoreBttn.innerText === 'Read-More'){
+    readMoreBttn.innerText = 'Read Less';
+  }else{
+    readMoreBttn.innerText = 'Read More';
+  }
 }
