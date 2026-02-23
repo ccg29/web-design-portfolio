@@ -112,6 +112,11 @@ This is for the portofolio read more section
 .text.show .moreText {
   display:inline;
 }
+//LearnAboutMeButton
+.about-me-buttn{
+  justify-content:center; 
+  padding:10px 20px; 
+}
 //About Section text
 
 .AboutSection{
@@ -158,6 +163,7 @@ li{i{
   font-weight: 400;
   font-style: italic;
 }}}
+
 
 img { max-width: 100%; height: auto; }
 
