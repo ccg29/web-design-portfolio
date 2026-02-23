@@ -7,7 +7,7 @@ readMoreBttn.forEach(button=>{
     if (parentContainer){
       const targetText = parentContainer.querySelector('.text');
       if (targetText){
-        targetText.classlist.toggle('show');
+        targetText.classList.toggle('show');
       }}
     if (button.innerText === 'Read More') {
       button.innerText = 'Read Less';}
