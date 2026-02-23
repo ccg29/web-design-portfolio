@@ -4,7 +4,7 @@ const text = document.querySelectorAll('.text');
 readMoreBttn.forEach((button, index) => {
   button.addEventListener('click', (e) => {
     if (text[index]) {
-      text[index].classList.toggle('show');
+      text[index].classList.toggle('show. moreText');
     }
     if (button.innerText === 'Read More') {
       button.innerText = 'Read Less';
