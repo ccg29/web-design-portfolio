@@ -1,15 +1,18 @@
-const readMoreBttn = document.querySelectorAll('.more-text-bttn');
-const text = document.querySelectorAll('.text');
+const readMoreBttn = document.querySelectorAll ('.more-text-bttn');
 
-readMoreBttn.forEach((button, index) => {
-  button.addEventListener('click', (e) => {
-    if (text[index]) {
-      text[index].classList.toggle('show');
-    }
+readMoreBttn.forEach(button=>{
+  button.addEventListener('click',() =>{
+    const parentContainer = button.closest('.portfolioItem');
+
+    if (parentContainer){
+      const targetText = parentContainer.querySelector('.text');
+      if (targetText){
+        targetText.classlist.toggle('show');
+      }}
     if (button.innerText === 'Read More') {
-      button.innerText = 'Read Less';
-    } else {
-      button.innerText = 'Read More';
-    }
+      button.innerText = 'Read Less';}
+    else { button.innerText = 'Read More';}
   });
 });
+
+  
