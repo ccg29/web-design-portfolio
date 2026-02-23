@@ -106,10 +106,10 @@ h6,p{
 /*
 This is for the portofolio read more section 
 */
-.moreText{
+.moreText {
   display:none;
 }
-.text.show. moreText{
+.text.show .moreText {
   display:inline;
 }
 
