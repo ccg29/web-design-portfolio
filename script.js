@@ -10,4 +10,4 @@ readMoreBttn.addEventListener('click'), (e)=>{
   }else{
     readMoreBttn.innerText = 'Read More';
   }
-})
+}})
