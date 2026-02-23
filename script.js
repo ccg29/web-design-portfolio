@@ -6,7 +6,7 @@ readMoreBttn.forEach((button, index) => {
     if (text[index]) {
       text[index].classList.toggle('show');
     }
-    if (button.innerText === 'Read-More') {
+    if (button.innerText === 'Read More') {
       button.innerText = 'Read Less';
     } else {
       button.innerText = 'Read More';
