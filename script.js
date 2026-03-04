@@ -9,9 +9,9 @@ readMoreBttn.forEach(button=>{
       if (targetText){
         targetText.classList.toggle('show');
       }}
-    if (button.innerText === 'Read More') {
-      button.innerText = 'Read Less';}
-    else { button.innerText = 'Read More';}
+    if (button.innerText === 'Read Summary') {
+      button.innerText = 'Hide Summmary';}
+    else { button.innerText = 'Read Summary';}
   });
 });
 
