@@ -6,7 +6,7 @@ body{
   font-size:1.25; 
   line-height: 1.5;
   margin-width:0;
-  background-color: #F3E8DA;
+  background-color: #FFF5D3;
 } 
 header {
   text-align: center;
@@ -25,62 +25,59 @@ a:focus, button:focus {
 /* Lab 4.1 — mobile-first layout + media query */
 
 @media(min-width:390px){
-  body{
-    background-color:#FFAD4F
-  }
+ 
 }
 
 @media (min-width:768px){
-  body{
-    background-color:#EFD468
-    
-  }
+  
 }
 
 @media(min-width:1200px){
-  body{
-    background-color:#F3E8DA
-  }
-}
-h1,h2{
-  .Montserrat-bold{
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  line-height:1.1;
-}}
-
-h1{
-  font-size:3rem;
+  
 }
 /* 
-heading 1's color will be to present the page's title name
+h1 is the page's title
 */ 
+h1{
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+}
 
+h1{
+  font-size:8rem;
+  color:#852F66;
+} 
+/* 
+h2 is for section titles of each page 
+*/
 h2{
-  font-size:2.5rem;
-  color: #22443B;
-}
-/*
-heading 2 will present each section of the website page 
-*/
-
-h3{
-  .Montserrat-medium-500{
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+  .poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-style: normal;
+  font-style: italic;
 }}
-
-h3{
-  font-size:2rem;
-  color: #21392D;
+h2{
+  font-size:6rem;
+  color: #FF8A4B;
 }
 /*
-  header 3 will be for lists and navigation -- TBD on changing color for navigation for when that section is covered
-*/
+h3 will be for subsections
+*/ 
+h3{
+  .poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+}
+
+h3{
+  font-size:4rem;
+  color: #852F66;
+}
 
 
 h4{
@@ -125,36 +122,45 @@ p{
 }
 
 p{
-.neuton-regular {
-  font-family: "Neuton", serif;
-  font-weight: 400;
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-style: normal;
 }}
 
 p{b{
-.neuton-bold {
-  font-family: "Neuton", serif;
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
 }}}
 
 p{i{
-.neuton-regular-italic {
-  font-family: "Neuton", serif;
-  font-weight: 400;
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-style: italic;
 }}}
+/*
+list fonts
+*/ 
+li{
+  .poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}}
 
 li{b{
-.neuton-bold {
-  font-family: "Neuton", serif;
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
 }}}
 li{i{
-.neuton-regular-italic {
-  font-family: "Neuton", serif;
-  font-weight: 400;
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-style: italic;
 }}}
 
@@ -163,13 +169,13 @@ img { max-width: 100%; height: auto; }
 
 /* incorporating a division with the footer */ 
 footer {
-  background-color: #F8BEAD;
+  background-color: #FFCFC4;
   text-align: center;
   padding: 8;
 }
 .githubImage{
-  height:20px;
-  width:20px;
+  height:18px;
+  width:18px;
 }
 
 
