@@ -94,10 +94,7 @@ h4{
 This is for the portofolio read more section 
 */
 .more-text-bttn {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  height: 100vh;           /* Optional: Centers within the full viewport height */
+   text-align: center;
 }
 
 .moreText {
