@@ -140,7 +140,11 @@ p{i{
 }}}
 /*
 list fonts
-*/ 
+*/
+li{
+  font-size:2rem;
+  text-align: center; 
+}
 li{
   .poppins-light {
   font-family: "Poppins", sans-serif;
