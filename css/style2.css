@@ -81,24 +81,11 @@ h3{
 
 
 h4{
-  font-size:1.5rem;
-  color:#28536B;
-  bacground-color:#B4CCCF;
-}
-
-h5{
-  font-size:1.25rem;
-  color: #FFC49B;
-  background-color: #F3A5BC;
-}
- h6{
-   color: #8FB78F; 
-   background-color: #CBE6C7;
- }
-
-h6,p{
   font-size:1rem;
+  color:##A2D870;
 }
+
+
 /*
 This is for the portofolio read more section 
 */
@@ -115,12 +102,14 @@ This is for the portofolio read more section
 }
 
 section{
-  margin-block: 50px;
+  margin-block: 40px;
 }
 p{
-  margin-block: 25px;
+  margin-block: 10px;
 }
-
+p{
+  font-size:2rem;
+}
 p{
 .poppins-light {
   font-family: "Poppins", sans-serif;
