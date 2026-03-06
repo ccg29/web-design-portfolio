@@ -93,6 +93,13 @@ h4{
 /*
 This is for the portofolio read more section 
 */
+.portfolioItem {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Optional: Centers within the full viewport height */
+}
+
 .moreText {
   display:none;
 }
