@@ -93,7 +93,7 @@ h4{
 /*
 This is for the portofolio read more section 
 */
-.portfolioItem {
+.more-text-bttn {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;     /* Centers vertically */
