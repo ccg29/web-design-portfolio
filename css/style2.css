@@ -201,14 +201,16 @@ footer {
 //Latest Work card
 
 .latest_work{
-  display: flex;
-  padding: 24px;
+ display: flex;
+  padding: 20px;
   boxshadow: 0 0 24px rgba(0,0,0,0.15); 
-  max-width:400px;
+  max-width:800px;
   border-radius:8px;
   text-decoration: none; 
   background-color:#A2D870; 
   transition:background0.25s;
+  justify-conent: space-evenly;
+  align-items: center;
 }
 
 .latest_work:hover{
@@ -216,11 +218,14 @@ footer {
 }
 
 .latesWork{
-  width:300;
-  margin-right:24px;
+ width:auto; 
+   height:300px;
+   padding:20px;
+   border-radius:10px; 
+   margin-right:24px;
 }
 .ltw_title{
-  margin-top:0;
+  margin-top:0px;
 }
 .ltw_body{
   line-height: 1.5;
