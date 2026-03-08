@@ -14,12 +14,17 @@ header {
   padding: 10;
 }
 
-a:focus, button:focus {
-  outline: 10px
-  outline-offset: 10px;
-  color:#A2D870; 
-  text-color:#852F66;
-}
+.button {
+  background-color: #A2D870;
+  border: none;
+  color: #852F66;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+} 
 @viewpoint{
   width: device-width;
   zoom: 1; 
