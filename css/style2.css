@@ -8,9 +8,6 @@ body{
   margin-width:0;
   background-color: #FFF5D3;
 } 
-@viewpoint{
-  width: device-width;
-  zoom: 1;
 header {
   text-align: center;
   line-height: 1.1;
@@ -254,3 +251,6 @@ footer {
   height:18px;
   width:18px;
 }
+@viewpoint{
+  width: device-width;
+  zoom: 1;
