@@ -199,5 +199,35 @@ footer {
   width:18px;
 }
 
+// about section card 
+.Aboutcard{
+  display: flex;
+  padding: 24px;
+  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
+  max-width:400px;
+  border-radius:8px;
+  text-decoration: none; 
+  background:#FFCFC4; 
+  transition:background0.25s;
+}
+
+.Aboutcard:hover{
+  background:#FFCFC4BF;
+}
+ .About_1{
+   width:80px; 
+   border-radius:10px; 
+   margin-right:24px;
+ }
+
+.About_2{
+  margin-top:0;
+  line-height:1.5;
+}
+
+.About_2:last-child{
+  margin-bottom:0;
+}
+
 
 
