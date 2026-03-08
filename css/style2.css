@@ -13,7 +13,65 @@ header {
   line-height:1.1;
   padding: 10;
 }
+//Latest Work card
 
+.latest_work{
+ display: flex;
+  padding: 20px;
+  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
+  max-width:10000px;
+  border-radius:8px;
+  text-decoration: none; 
+  background-color:#FFCFC4; 
+  transition:background0.25s;
+  justify-conent: space-evenly;
+  align-items: center;
+}
+
+.latesWork{
+ width:auto; 
+   height:300px;
+   padding:20px;
+   border-radius:10px; 
+   margin-right:24px;
+}
+.ltw_title{
+  margin-top:0px;
+}
+.ltw_body{
+  line-height: 1.5;
+}
+.ltw_body:last-child{
+  margin-bottom:0;
+}
+// about section card 
+.card{
+  display: flex;
+  padding: 20px;
+  max-width:10000px;
+  border-radius:8px;
+  text-decoration: none; 
+  background-color:#FFCFC4; 
+  transition:background0.25s;
+  justify-conent: space-evenly;
+  align-items: center;
+}
+ .card__image{
+   width:auto; 
+   height:300px;
+   padding:20px;
+   border-radius:10px; 
+   margin-right:24px;
+ }
+
+.card__body{
+  margin-top:0;
+  padding:20px;
+  line-height:1.5;
+}
+.card__body:last-child{
+  margin-bottom:0;
+}
 .button {
   background-color: #A2D870;
   border: none;
@@ -193,65 +251,3 @@ footer {
   height:18px;
   width:18px;
 }
-//Latest Work card
-
-.latest_work{
- display: flex;
-  padding: 20px;
-  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
-  max-width:10000px;
-  border-radius:8px;
-  text-decoration: none; 
-  background-color:#FFCFC4; 
-  transition:background0.25s;
-  justify-conent: space-evenly;
-  align-items: center;
-}
-
-.latesWork{
- width:auto; 
-   height:300px;
-   padding:20px;
-   border-radius:10px; 
-   margin-right:24px;
-}
-.ltw_title{
-  margin-top:0px;
-}
-.ltw_body{
-  line-height: 1.5;
-}
-.ltw_body:last-child{
-  margin-bottom:0;
-}
-// about section card 
-.card{
-  display: flex;
-  padding: 20px;
-  max-width:10000px;
-  border-radius:8px;
-  text-decoration: none; 
-  background-color:#FFCFC4; 
-  transition:background0.25s;
-  justify-conent: space-evenly;
-  align-items: center;
-}
- .card__image{
-   width:auto; 
-   height:300px;
-   padding:20px;
-   border-radius:10px; 
-   margin-right:24px;
- }
-
-.card__body{
-  margin-top:0;
-  padding:20px;
-  line-height:1.5;
-}
-.card__body:last-child{
-  margin-bottom:0;
-}
-
-
-
