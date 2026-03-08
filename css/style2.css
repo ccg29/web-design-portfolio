@@ -198,7 +198,36 @@ footer {
   height:18px;
   width:18px;
 }
+//Latest Work card
 
+.latest_work{
+  display: flex;
+  padding: 24px;
+  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
+  max-width:400px;
+  border-radius:8px;
+  text-decoration: none; 
+  background:#A2D870; 
+  transition:background0.25s;
+}
+
+.latest_work:hover{
+  background:#A2D870; 
+}
+
+.latesWork{
+  width:300;
+  margin-right:24px;
+}
+.ltw_title{
+  margin-top:0;
+}
+.ltw_body{
+  line-height: 1.5;
+}
+.ltw_body:last-child{
+  margin-bottom:0;
+}
 // about section card 
 .card{
   display: flex;
