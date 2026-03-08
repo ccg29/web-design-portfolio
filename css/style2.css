@@ -29,7 +29,7 @@ header {
 } 
 
 .button:hover {
-  background-color: #FFCFC4;
+  background-color: #A2D870B7;
   color: #852F66;
 }
 
@@ -207,14 +207,10 @@ footer {
   max-width:10000px;
   border-radius:8px;
   text-decoration: none; 
-  background-color:#A2D870; 
+  background-color:#FFCFC4; 
   transition:background0.25s;
   justify-conent: space-evenly;
   align-items: center;
-}
-
-.latest_work:hover{
-  background:#FFCFC4BF; 
 }
 
 .latesWork{
@@ -241,14 +237,10 @@ footer {
   max-width:10000px;
   border-radius:8px;
   text-decoration: none; 
-  background-color:#A2D870; 
+  background-color:#FFCFC4; 
   transition:background0.25s;
   justify-conent: space-evenly;
   align-items: center;
-}
-
-.card:hover{
-  background:#FFCFC4BF;
 }
  .card__image{
    width:auto; 
