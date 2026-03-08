@@ -97,6 +97,7 @@ header {
   ring-op:50;
 }
 .portfolioItem{
+  display: flex;
   justify-conent: space-evenly; 
   align-items: center;
 } 
