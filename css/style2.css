@@ -235,7 +235,6 @@ footer {
   boxshadow: 0 0 24px rgba(0,0,0,0.15); 
   max-width:800px;
   border-radius:8px;
-  font-size:1.5rem;
   text-decoration: none; 
   background-color:#A2D870; 
   transition:background0.25s;
@@ -250,7 +249,7 @@ footer {
    width:auto; 
    height:300px;
    padding:20px;
-   border-radius:5px; 
+   border-radius:10px; 
    margin-right:24px;
  }
 
@@ -258,6 +257,9 @@ footer {
   margin-top:0;
   padding:20px;
   line-height:1.5;
+}
+.card__body:last-child{
+  margin-bottom:0;
 }
 
 
