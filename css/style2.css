@@ -17,6 +17,7 @@ header {
 .button {
   background-color: #A2D870;
   border: none;
+  padding: 12px 28px;
   color: #852F66;
   text-align: center;
   text-decoration: none;
