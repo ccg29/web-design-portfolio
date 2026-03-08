@@ -32,6 +32,12 @@ header {
   background-color: #FFCFC4;
   color: #852F66;
 }
+
+.button:focus-visible{
+  ring-offset:2
+  ring:#A2D870;
+  ring-op:50;
+}
 @viewpoint{
   width: device-width;
   zoom: 1; 
