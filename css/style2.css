@@ -95,8 +95,8 @@ header {
   ring-op:50;
 }
 .portfolioItem{
+  padding: 20px;
   align-items: center;
-} 
 }
 /* Lab 4.1 — mobile-first layout + media query */
 
