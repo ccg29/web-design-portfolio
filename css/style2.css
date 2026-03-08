@@ -204,7 +204,7 @@ footer {
  display: flex;
   padding: 20px;
   boxshadow: 0 0 24px rgba(0,0,0,0.15); 
-  max-width:800px;
+  max-width:10000px;
   border-radius:8px;
   text-decoration: none; 
   background-color:#A2D870; 
@@ -238,7 +238,7 @@ footer {
   display: flex;
   padding: 20px;
   boxshadow: 0 0 24px rgba(0,0,0,0.15); 
-  max-width:800px;
+  max-width:10000px;
   border-radius:8px;
   text-decoration: none; 
   background-color:#A2D870; 
