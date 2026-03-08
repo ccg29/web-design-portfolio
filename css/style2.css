@@ -200,7 +200,7 @@ footer {
 }
 
 // about section card 
-.Aboutcard{
+.card{
   display: flex;
   padding: 24px;
   boxshadow: 0 0 24px rgba(0,0,0,0.15); 
@@ -211,21 +211,21 @@ footer {
   transition:background0.25s;
 }
 
-.Aboutcard:hover{
+.card:hover{
   background:#FFCFC4BF;
 }
- .About_1{
+ .card__image{
    width:80px; 
    border-radius:10px; 
    margin-right:24px;
  }
 
-.About_2{
+.card__body{
   margin-top:0;
   line-height:1.5;
 }
 
-.About_2:last-child{
+.card__body:last-child{
   margin-bottom:0;
 }
 
