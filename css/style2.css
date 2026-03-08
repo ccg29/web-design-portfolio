@@ -231,14 +231,15 @@ footer {
 // about section card 
 .card{
   display: flex;
-  width: 100%;
   padding: 20px;
+  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
+  max-width:800px;
+  border-radius:8px;
+  text-decoration: none; 
+  background-color:#A2D870; 
+  transition:background0.25s;
   justify-conent: space-evenly;
   align-items: center;
-  transition:background0.25s;
-  boxshadow: 0 0 24px rgba(0,0,0,0.15);
-  border-radius:8px;
-  background-color:#A2D870; 
 }
 
 .card:hover{
@@ -246,14 +247,15 @@ footer {
 }
  .card__image{
    width:auto; 
+   height:300px;
+   padding:20px;
    border-radius:5px; 
    margin-right:24px;
  }
 
-.card__body{
-  display:flex;
+.card_body{
   margin-top:0;
-  text-align: right;
+  padding:20px;
   line-height:1.5;
 }
 
