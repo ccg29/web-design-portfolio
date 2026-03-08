@@ -10,7 +10,7 @@ body{
 } 
 header {
   text-align: center;
-  line-height:1.1;
+  line-height: 1.1;
   padding: 10;
 }
 //Latest Work card
@@ -19,11 +19,10 @@ header {
  display: flex;
   padding: 20px;
   boxshadow: 0 0 24px rgba(0,0,0,0.15); 
-  max-width:10000px;
-  border-radius:8px;
+  max-width: 10000px;
+  border-radius: 8px;
   text-decoration: none; 
-  background-color:#FFCFC4; 
-  transition:background0.25s;
+  background-color: #FFCFC4; 
   justify-conent: space-evenly;
   align-items: center;
 }
@@ -48,29 +47,28 @@ header {
 .card{
   display: flex;
   padding: 20px;
-  max-width:10000px;
-  border-radius:8px;
+  max-width: 10000px;
+  border-radius: 8px;
   text-decoration: none; 
-  background-color:#FFCFC4; 
-  transition:background0.25s;
+  background-color: #FFCFC4; 
   justify-conent: space-evenly;
   align-items: center;
 }
  .card__image{
-   width:auto; 
-   height:400px;
-   padding:20px;
-   border-radius:10px; 
-   margin-right:24px;
+   width: auto; 
+   height: 400px;
+   padding: 20px;
+   border-radius: 10px; 
+   margin-right: 24px;
  }
 
 .card__body{
-  margin-top:0;
-  padding:20px;
-  line-height:1.5;
+  margin-top: 0;
+  padding: 20px;
+  line-height: 1.5;
 }
 .card__body:last-child{
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 .button {
   background-color: #A2D870;
