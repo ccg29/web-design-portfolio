@@ -23,8 +23,14 @@ header {
   display: inline-block;
   font-size: 1rem;
   margin: 4px 2px;
+  transition-duration: 0.4s;
   cursor: pointer;
 } 
+
+.button:hover {
+  background-color: #FFCFC4;
+  color: #852F66;
+}
 @viewpoint{
   width: device-width;
   zoom: 1; 
