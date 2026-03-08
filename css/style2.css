@@ -123,11 +123,6 @@ This is for the portofolio read more section
 .text.show .moreText {
   display:inline;
 }
-//About Section text
-
-.AboutSection{
-  text-align: right;
-}
 
 section{
   margin-block: 40px;
