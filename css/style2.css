@@ -207,12 +207,12 @@ footer {
   max-width:400px;
   border-radius:8px;
   text-decoration: none; 
-  background:#A2D870; 
+  background-color:#A2D870; 
   transition:background0.25s;
 }
 
 .latest_work:hover{
-  background:#A2D870; 
+  background:#FFCFC4BF; 
 }
 
 .latesWork{
@@ -236,7 +236,7 @@ footer {
   max-width:400px;
   border-radius:8px;
   text-decoration: none; 
-  background:#A2D870; 
+  background-color:#A2D870; 
   transition:background0.25s;
 }
 
