@@ -5,6 +5,7 @@ body{
   font-family: "Poppins"; 
   font-size: 1.25; 
   margin: 0;
+  max-width:100%;
   background-color: #FFF5D3;
   flex-wrap: wrap;
   
