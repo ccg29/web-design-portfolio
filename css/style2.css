@@ -189,10 +189,24 @@ h4{
 This is for the portofolio read more section 
 */
 .more-text-bttn {
-  .more-text-bttn{
+  background-color: #A2D870;
+  border: none;
+  padding: 12px 28px;
+  color: #852F66;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
   position: absolute;
   left: 50%; /* Moves button to the middle horizontally */
   transform: translate(-50%, -50%); /* Centers the button */
+}
+.more-text-bttn:hover {
+  background-color: #A2D870B7;
+  color: #852F66;
 }
 
 .moreText {
