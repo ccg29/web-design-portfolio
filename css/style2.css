@@ -6,6 +6,7 @@ body{
   font-size: 1.25; 
   margin: 0;
   background-color: #FFF5D3;
+  flex-wrap: wrap;
   
 } 
 header {
@@ -301,3 +302,4 @@ footer {
 @viewpoint{
   width: device-width;
   zoom: 1;
+}
