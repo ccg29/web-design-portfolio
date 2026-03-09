@@ -189,8 +189,10 @@ h4{
 This is for the portofolio read more section 
 */
 .more-text-bttn {
-   text-align: center;
-  align-item: center;
+  .more-text-bttn{
+  position: absolute;
+  left: 50%; /* Moves button to the middle horizontally */
+  transform: translate(-50%, -50%); /* Centers the button */
 }
 
 .moreText {
