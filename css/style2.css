@@ -94,9 +94,29 @@ header {
   ring:#A2D870;
   ring-op:50;
 }
+//padding for portfolio page 
 .portfolioItem{
+  display: block;
+  margin:20px;
   padding: 20px;
+  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
+  max-width:10000px;
+  border-radius:8px;
+  text-decoration: none; 
+  background-color:#FFCFC4; 
+  transition:background0.25s;
 }
+.porfoliotitle{
+  margin-top:0px;
+  margin-bottom:10px;
+}
+.video{
+  margin-top:30px;
+  display: block;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* Lab 4.1 — mobile-first layout + media query */
 
 @media(min-width:390px){
