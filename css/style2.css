@@ -201,12 +201,17 @@ This is for the portofolio read more section
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
-  left: 50%; /* Moves button to the middle horizontally */
-  transform: translate(-50%, -50%); /* Centers the button */
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .more-text-bttn:hover {
   background-color: #A2D870B7;
   color: #852F66;
+}
+.button1{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
 }
 
 .moreText {
