@@ -181,6 +181,10 @@ h3{
 h4 is for subtitle and captions
 */ 
 h4{
+  .poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;}
   font-size:1rem;
   color:##A2D870;
 }
