@@ -3,14 +3,15 @@
 /*  Lab 4.3 - background & font colors adjusted to solve contrast ratio */ 
 body{
   font-family: "Poppins"; 
-  font-size:1.25; 
-  line-height: 1.5;
-  margin-width:0;
+  font-size: 1.25; 
+  margin: 0;
   background-color: #FFF5D3;
+  
 } 
 header {
   text-align: center;
   line-height: 1.1;
+  min-height:80vh;
   padding: 10;
 }
 //Latest Work card
@@ -278,8 +279,15 @@ li{i{
 }}}
 
 
-img { max-width: 100%; height: auto; }
+img {
+  display: block;
+  max-width:100%
+}
 
+iframe{
+  display: block;
+  max-width:100%
+}
 /* incorporating a division with the footer */ 
 footer {
   background-color: #FFCFC4;
