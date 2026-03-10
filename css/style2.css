@@ -15,35 +15,37 @@ header {
   padding: 10;
 }
 //Latest Work card
-
-.latest_work{
- display: flex;
-  padding: 20px;
-  boxshadow: 0 0 24px rgba(0,0,0,0.15); 
+.recentcard{
+  display: flex;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  padding: 10px;
   max-width: 10000px;
   border-radius: 8px;
   text-decoration: none; 
-  background-color: #FFCFC4; 
-  justify-conent: space-evenly;
+  
+}
+.workphoto{
+  width: 100%;
+  display: block;
+  max-width: auto;
+  height: 300px;
+  justify-content: center;
   align-items: center;
 }
-
-.latesWork{
- width:auto; 
-   height:300px;
-   padding:20px;
-   border-radius:10px; 
-   margin-right:24px;
+.cards{
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
 }
-.ltw_title{
-  margin-top:0px;
-}
-.ltw_body{
+.recentcard__content{
   line-height: 1.5;
+  border-radius: 8px;
+  padding: 50px;
+  background:#FFCFC4;
 }
-.ltw_body:last-child{
-  margin-bottom:0;
-}
+
 // about section card 
 .card{
   display: flex;
