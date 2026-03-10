@@ -231,15 +231,9 @@ This is for the portofolio read more section
 .text.show .moreText {
   display:inline;
 }
-
-section{
-  margin-block: 40px;
-}
-p{
-  margin-block: 10px;
-}
 p{
   font-size:2rem;
+  font-size: clamp(1rem, 0.519rem + 1.975vw, 2rem);
 }
 p{
 .poppins-light {
