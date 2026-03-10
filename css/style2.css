@@ -101,6 +101,7 @@ header {
   display: block;
   margin:20px;
   padding: 30px;
+  gap:10px;
   boxshadow: 0 0 24 rgba(0,0,0,0.15); 
   max-width: 10000px;
   border-radius: 8px;
