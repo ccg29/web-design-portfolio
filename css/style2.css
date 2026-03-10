@@ -51,8 +51,9 @@ header {
   padding: 20px;
   max-width: 10000px;
   border-radius: 8px;
-  text-decoration: none; 
+  text-decoration: none;
   background-color: #FFCFC4; 
+  gap:20px;
   justify-conent: space-evenly;
   align-items: center;
 }
