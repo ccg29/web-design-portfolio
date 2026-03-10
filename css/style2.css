@@ -122,7 +122,6 @@ header {
 /* Lab 4.1 — mobile-first layout + media query */
 
 @media(min-width:390px){
- 
 }
 
 @media (min-width:768px){
@@ -146,6 +145,7 @@ h1{
 h1{
   font-size:8rem;
   color:#852F66;
+  font-size:clamp(1rem, -2.37rem + 13.827vw, 8rem);
 } 
 /* 
 h2 is for section titles of each page 
@@ -160,6 +160,7 @@ h2{
   text-align: center;
   font-size:6rem;
   color: #FF8A4B;
+  font-size: clamp(1rem, -1.407rem + 9.877vw, 6rem);
 }
 /*
 h3 will be for subsections
@@ -176,6 +177,7 @@ h3{
   text-align: center;
   font-size:4rem;
   color: #852F66;
+  font-size: clamp(1rem, -0.444rem + 5.926vw, 4rem);
 }
 
 /* 
@@ -186,7 +188,11 @@ h4{
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;}
+}
+
+h4{
   font-size:1rem;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
 }
 
 
