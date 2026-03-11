@@ -175,7 +175,7 @@ h1{
 h1{
   font-size:8rem;
   color:#852F66;
-  font-size:clamp(1rem, -2.37rem + 13.827vw, 8rem);
+  font-size: clamp(2rem, -0.889rem + 11.852vw, 8rem);
 } 
 /* 
 h2 is for section titles of each page 
@@ -190,7 +190,7 @@ h2{
   text-align: center;
   font-size:6rem;
   color: #FF8A4B;
-  font-size: clamp(1rem, -1.407rem + 9.877vw, 6rem);
+  font-size: clamp(1.5rem, -0.667rem + 8.889vw, 6rem);
 }
 /*
 h3 will be for subsections
@@ -207,7 +207,7 @@ h3{
   text-align: center;
   font-size:4rem;
   color: #852F66;
-  font-size: clamp(1rem, -0.444rem + 5.926vw, 4rem);
+  font-size: clamp(1.25rem, -0.074rem + 5.432vw, 4rem);
 }
 
 /* 
