@@ -207,9 +207,7 @@ header {
   border-radius:5px;}
 
 @media (min-width:768px){
-  
-}
-.juxtapose{
+ .juxtapose{
   margin: 0 auto;
   width: auto;
   height: 200px;
@@ -217,7 +215,8 @@ header {
   align-items: center;
   margin-top:30px;
   display: block;
-  border-radius:5px;}
+  border-radius:5px;} 
+}
 
 @media(min-width:1400px){
   .juxtapose{
