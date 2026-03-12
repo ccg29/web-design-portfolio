@@ -370,8 +370,6 @@ footer {
   height:18px;
   width:18px;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
 }
 @viewpoint{
   width: device-width;
