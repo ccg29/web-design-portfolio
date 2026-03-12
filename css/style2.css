@@ -5,7 +5,7 @@ body{
   font-family: "Poppins"; 
   font-size: 1.25; 
   margin: 0;
-  max-width:100%;
+  max-width:auto;
   background-color: #FFFCF0;
   
 } 
@@ -16,33 +16,39 @@ header {
 }
 //Latest Work card
 .recentcard{
-  display: flex;
-  box-shadow: 0 0 3px rgba(0,0,0,0.1);
-  padding: 10px;
-  max-width: 10000px;
-  border-radius: 8px;
-  text-decoration: none; 
+  width: auto;
+  background-color:#FFCFC4;
+  border-radius:8px;
+  overflow: hidden;
+  gap: 20px;
+  box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
+  margin: 20px;
   
 }
 .workphoto{
+  margin: 0 auto;
   display: block;
-  max-width: auto;
+  max-width: 10000px;
   height: 300px;
   justify-content: center;
   align-items: center;
 }
 .cards{
-  margin: 0 auto;
-  max-width: 1000px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+   display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top:100px;
 }
 .recentcard__content{
-  line-height: 1.5;
-  border-radius: 8px;
-  padding: 50px;
-  background:#FFCFC4;
+  width: auto;
+  border-radius:8px;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
+  margin: 20px;
 }
 
 // about section card 
@@ -149,6 +155,9 @@ header {
   align-items: center;
 }
 
+.juxtapose{
+  margin: 0 auto;
+
 /* Lab 4.1 — mobile-first layout + media query */
 
 @media(min-width:390px){
@@ -186,7 +195,7 @@ h2{
 }}
 h2{
   text-align: center;
-  color: #FF8A4B;
+  color: #852F66;
   font-size: clamp(1.75rem, 0.667rem + 4.444vw, 4rem);
 }
 /*
@@ -230,10 +239,11 @@ This is for the portofolio read more section
   margin: 5px;
   padding: 5px;
   color: #852F66;
+  border-radius: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.75rem;
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
@@ -257,6 +267,7 @@ This is for the portofolio read more section
   display:inline;
 }
 p{
+  text-align: center;
  font-size: clamp(1rem, 0.928rem + 0.296vw, 1.15rem);
 }
 p{
@@ -283,7 +294,7 @@ p{i{
 list fonts
 */
 li{
-  font-size:2rem;
+  font-size: clamp(1rem, 0.928rem + 0.296vw, 1.15rem);
   text-align: center; 
 }
 li{
