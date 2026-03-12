@@ -6,7 +6,7 @@ body{
   font-size: 1.25; 
   margin: 0;
   max-width:100%;
-  background-color: #FFF5D3;
+  background-color: #FFFCF0;
   
 } 
 header {
@@ -165,17 +165,15 @@ header {
 h1 is the page's title
 */ 
 h1{
-.poppins-bold-italic {
+.poppins-regular {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+  font-weight: 400;
+  font-style: normal;
 }
 }
 
 h1{
-  font-size:8rem;
-  color:#852F66;
-  font-size: clamp(2rem, -0.889rem + 11.852vw, 8rem);
+  font-size: clamp(2rem, 0.074rem + 7.901vw, 6rem);
 } 
 /* 
 h2 is for section titles of each page 
@@ -188,9 +186,8 @@ h2{
 }}
 h2{
   text-align: center;
-  font-size:6rem;
   color: #FF8A4B;
-  font-size: clamp(1.5rem, -0.667rem + 8.889vw, 6rem);
+  font-size: clamp(1.75rem, 0.667rem + 4.444vw, 4rem);
 }
 /*
 h3 will be for subsections
@@ -205,26 +202,24 @@ h3{
 
 h3{
   text-align: center;
-  font-size:4rem;
   color: #852F66;
-  font-size: clamp(1.25rem, -0.074rem + 5.432vw, 4rem);
+  font-size: clamp(1.5rem, 0.778rem + 2.963vw, 3rem);
 }
 
 /* 
 h4 is for subtitle and captions
 */ 
 h4{
-  .poppins-extralight {
+.poppins-light-italic {
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;}
+  font-weight: 300;
+  font-style: italic;
+}
 }
 
 h4{
-  font-size:1rem;
-  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  font-size: clamp(1.25rem, 0.889rem + 1.481vw, 2rem);
 }
-
 
 /*
 This is for the portofolio read more section 
@@ -262,8 +257,7 @@ This is for the portofolio read more section
   display:inline;
 }
 p{
-  font-size:2rem;
-  font-size: clamp(1rem, 0.519rem + 1.975vw, 2rem);
+ font-size: clamp(1rem, 0.928rem + 0.296vw, 1.15rem);
 }
 p{
 .poppins-light {
