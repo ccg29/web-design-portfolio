@@ -16,31 +16,36 @@ header {
 }
 //Latest Work card
 .recentcard{
+ display:flex;
+  justify-content: center;
+    width: auto;
+  background-color:#FFCFC4;
+  border-radius:15px;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: hidden;
+  box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
+  margin: 20px;}
+
+.recentcard{
   width: auto;
   background-color:#FFCFC4;
-  border-radius:8px;
+  border-radius:150px;
   overflow: hidden;
   gap: 20px;
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
-  margin: 20px;
-  
-}
+  margin: 20px;}
+
 .workphoto{
   margin: 0 auto;
   display: block;
-  max-width: 10000px;
+  width: auto;
   height: 300px;
   justify-content: center;
   align-items: center;
 }
-.cards{
-   display:flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top:100px;
-}
-.recentcard__content{
+
+.recentcard_content{
   width: auto;
   border-radius:8px;
   overflow: hidden;
@@ -51,14 +56,21 @@ header {
   margin: 20px;
 }
 
-// about section card 
+// about section card
+.aboutContainer{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-content: center; 
+  gap: 20px;
+}
 .card{
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
-  max-width: 10000px;
+  max-width: auto;
   border-radius: 8px;
   text-decoration: none;
-  background-color: #FFCFC4; 
   gap:20px;
   justify-conent: space-evenly;
   align-items: center;
@@ -72,14 +84,11 @@ header {
  }
 
 .card__body{
-  margin-top: 0;
+ margin: 0 auto;
   padding: 20px;
   line-height: 1.5;
 }
-.card__body:last-child{
-  margin-bottom: 0;
-}
-.button {
+.button{
   background-color: #A2D870;
   border: none;
   padding: 12px 28px;
@@ -91,7 +100,7 @@ header {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-} 
+}
 
 .button:hover {
   background-color: #A2D870B7;
