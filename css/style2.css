@@ -12,17 +12,17 @@ body{
 header {
   text-align: center;
   line-height: 1.1;
-  padding: 10;
-}
+  padding: 10;}
+
 //Latest Work card
 .recentcard{
  display:flex;
   justify-content: center;
-    width: auto;
+  width: auto;
   background-color:#FFCFC4;
   border-radius:15px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   overflow: hidden;
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
   margin: 20px;}
@@ -42,8 +42,7 @@ header {
   width: auto;
   height: 300px;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center;}
 
 .recentcard_content{
   width: auto;
@@ -53,8 +52,28 @@ header {
   text-align: center;
   gap: 20px;
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
-  margin: 20px;
-}
+  margin: 20px;}
+
+// Photos of the Week Section Card 
+
+.pow{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  border-radius:15px;
+  flex-wrap:wrap;
+  gap:40px;
+  overflow:hidden;
+  box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
+  margin: 20px;}
+
+.pow{
+    width: auto;
+  border-radius:150px;
+  overflow: hidden;
+  gap: 20px;
+  box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
+  margin: 20px;}
 
 // about section card
 .aboutContainer{
@@ -118,9 +137,8 @@ header {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top:100px;
-  
-}
+  margin-top:100px;}
+
 .portfolioItem{
   width: auto;
   background-color:#FFCFC4;
@@ -128,14 +146,12 @@ header {
   overflow: hidden;
   gap: 20px;
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
-  margin: 20px;
-}
+  margin: 20px;}
 
 .portfoliophoto{
   margin:0 auto;
   width: auto;
-  height: auto; 
-}
+  height: auto;}
 
 .portfoliocontent{
   padding:16px;
@@ -166,6 +182,12 @@ header {
 
 .juxtapose{
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  display: block;
+  border-radius:5px;}
+
 
 /* Lab 4.1 — mobile-first layout + media query */
 
