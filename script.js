@@ -1,8 +1,8 @@
-const readMoreBttn = document.querySelectorAll ('.more-text-bttn');
+const readMoreBttn = document.querySelectorAll (' .more-text-bttn');
 
 readMoreBttn.forEach(button=>{
   button.addEventListener('click',() =>{
-    const parentContainer = button.closest('.portfolioItem');
+    const parentContainer = button.closest(' .portfolioItem');
 
     if (parentContainer){
       const targetText = parentContainer.querySelector('.text');
