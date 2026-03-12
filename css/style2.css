@@ -219,7 +219,7 @@ header {
   display: block;
   border-radius:5px;}
 
-@media(min-width:14000px){
+@media(min-width:1400px){
   .juxtapose{
   margin: 0 auto;
   width: auto;
