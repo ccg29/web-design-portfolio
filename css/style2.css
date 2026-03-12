@@ -184,13 +184,12 @@ header {
 
 .juxtapose{
   margin: 0 auto;
-  height: auto;
+  max-height: 570px;
   justify-content: center;
   align-items: center;
   margin-top:30px;
   display: block;
   border-radius:5px;}
-
 
 /* Lab 4.1 — mobile-first layout + media query */
 
@@ -368,8 +367,8 @@ footer {
   text-align: center;
 }
 .githubImage{
-  height:75px;
-  width:75px;
+  height:50px;
+  width:50px;
   margin: 0 auto;
 }
 @viewpoint{
