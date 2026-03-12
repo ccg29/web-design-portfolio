@@ -185,7 +185,8 @@ header {
 .juxtapose{
   margin: 0 auto;
   max-width: 100%;
-  height: auto;
+  min-height:200px
+  max-height:570px;
   justify-content: center;
   align-items: center;
   margin-top:30px;
@@ -289,9 +290,11 @@ This is for the portofolio read more section
   color: #852F66;
 }
 .button1{
+  margin:15px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%); 
+  margin-bottom:15px;
 }
 
 .moreText {
