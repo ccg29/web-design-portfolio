@@ -113,6 +113,7 @@ header {
   border: none;
   padding: 12px 28px;
   color: #852F66;
+  border-radius:5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
