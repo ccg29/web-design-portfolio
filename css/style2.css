@@ -15,9 +15,7 @@ header {
   padding: 10px;}
 
 .recentcard{
-   display:flex;
-  justify-content: center;
-  align-items: center;
+  display:flex;
   width: auto;
   background-color:#FFCFC4;
   border-radius:15px;
