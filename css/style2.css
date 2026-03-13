@@ -3,18 +3,17 @@
 /*  Lab 4.3 - background & font colors adjusted to solve contrast ratio */ 
 body{
   font-family: "Poppins"; 
-  font-size: 1.25; 
+  font-size: 1.25rem; 
   margin: 0;
-  max-width:auto;
+  width: auto;
   background-color: #FFFCF0;
   
 } 
 header {
   text-align: center;
   line-height: 1.1;
-  padding: 10;}
+  padding: 10px;}
 
-//Latest Work card
 .recentcard{
  display:flex;
   justify-content: center;
@@ -54,8 +53,6 @@ header {
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
   margin: 20px;}
 
-// Photos of the Week Section Card 
-
 .pow{
   display: flex;
   justify-content: center;
@@ -75,7 +72,6 @@ header {
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
   margin: 20px;}
 
-// about section card
 .aboutContainer{
   display: flex; 
   flex-wrap: wrap;
@@ -87,11 +83,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  max-width: auto;
+  width: auto;
   border-radius: 8px;
   text-decoration: none;
   gap:20px;
-  justify-conent: space-evenly;
+  justify-content: space-evenly;
   align-items: center;
 }
  .card__image{
@@ -103,7 +99,7 @@ header {
  }
 
 .card__body{
- margin: 0 auto;
+  margin: 0 auto;
   padding: 20px;
   line-height: 1.5;
 }
@@ -128,11 +124,11 @@ header {
 }
 
 .button:focus-visible{
-  ring-offset:2
+  ring-offset:2;
   ring:#A2D870;
   ring-op:50;
 }
-//padding for portfolio page 
+
 .portfolio-container{
   display:flex;
   justify-content: center;
