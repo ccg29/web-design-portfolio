@@ -67,6 +67,8 @@ header {
 
 .pow{
   width: auto;
+  justify-content: center;
+  align-items: center;
   border-radius:15px;
   overflow: hidden;
   gap: 20px;
