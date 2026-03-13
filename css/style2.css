@@ -15,8 +15,9 @@ header {
   padding: 10px;}
 
 .recentcard{
- display:flex;
+ `display:flex;
   justify-content: center;
+  align-items: center;
   width: auto;
   background-color:#FFCFC4;
   border-radius:15px;
@@ -67,8 +68,6 @@ header {
 
 .pow{
   width: auto;
-  justify-content: center;
-  align-items: center;
   border-radius:15px;
   overflow: hidden;
   gap: 20px;
