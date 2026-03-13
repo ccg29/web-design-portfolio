@@ -16,6 +16,8 @@ header {
 
 .recentcard{
   display:flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
   background-color:#FFCFC4;
   border-radius:15px;
@@ -38,9 +40,7 @@ header {
   margin: 0 auto;
   display: block;
   margin-top:20px;
-  width: auto;
-  justify-content: center;
-  align-items: center;}
+  width: auto;}
 
 .recentcard_content{
   width: auto;
