@@ -128,7 +128,7 @@ header {
 }
 
 .button:focus-visible{
-  ring-offset:2
+  ring-offset:2;
   ring:#A2D870;
   ring-op:50;
 }
