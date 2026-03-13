@@ -56,8 +56,6 @@ header {
 
 .pow{
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: auto;
   border-radius:15px;
   flex-wrap:wrap;
