@@ -91,7 +91,7 @@ header {
   border-radius: 8px;
   text-decoration: none;
   gap:20px;
-  justify-conent: space-evenly;
+  justify-content: space-evenly;
   align-items: center;
 }
  .card__image{
