@@ -307,13 +307,6 @@ This is for the portofolio read more section
   background-color: #A2D870B7;
   color: #852F66;
 }
-.button1{
-  margin:15px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  margin-bottom:15px;
-}
 
 .moreText {
   display:none;
