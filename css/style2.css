@@ -3,19 +3,21 @@
 /*  Lab 4.3 - background & font colors adjusted to solve contrast ratio */ 
 body{
   font-family: "Poppins"; 
-  font-size: 1.25rem; 
+  font-size: 1.25; 
   margin: 0;
-  width: auto;
+  max-width:auto;
   background-color: #FFFCF0;
-  
+
 } 
 header {
   text-align: center;
   line-height: 1.1;
-  padding: 10px;}
+  padding: 10;}
 
+//Latest Work card
 .recentcard{
  display:flex;
+  justify-content: center;
   width: auto;
   background-color:#FFCFC4;
   border-radius:15px;
@@ -37,25 +39,22 @@ header {
 .workphoto{
   margin: 0 auto;
   display: block;
-  margin-top:20px;
-  width: auto;}
+  margin-top:30px;
+  width: auto;
+  justify-content: center;
+  align-items: center;}
 
 .recentcard_content{
   width: auto;
   border-radius:5px;
   overflow: hidden;
+  justify-content: center;
   text-align: center;
   gap: 20px;
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
   margin: 20px;}
 
-. button1{
-  margin:15px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  margin-bottom:15px;
-}
+// Photos of the Week Section Card 
 
 .pow{
   display: flex;
@@ -68,7 +67,6 @@ header {
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
   margin: 20px;}
 
-
 .pow{
   width: auto;
   border-radius:15px;
@@ -77,7 +75,7 @@ header {
   box-shadow: 0px, 2px, 4px, rgba(0,0, 0.2);
   margin: 20px;}
 
-
+// about section card
 .aboutContainer{
   display: flex; 
   flex-wrap: wrap;
@@ -89,10 +87,11 @@ header {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  width: auto;
+  max-width: auto;
   border-radius: 8px;
   text-decoration: none;
   gap:20px;
+  justify-conent: space-evenly;
   align-items: center;
 }
  .card__image{
@@ -104,7 +103,7 @@ header {
  }
 
 .card__body{
-  margin: 0 auto;
+ margin: 0 auto;
   padding: 20px;
   line-height: 1.5;
 }
@@ -129,11 +128,11 @@ header {
 }
 
 .button:focus-visible{
-  ring-offset:2;
+  ring-offset:2
   ring:#A2D870;
   ring-op:50;
 }
-
+//padding for portfolio page 
 .portfolio-container{
   display:flex;
   justify-content: center;
@@ -207,7 +206,7 @@ header {
   align-items: center;
   margin-top:30px;
   display: block;
-  
+
 }
 .juxtapose{
   margin: 0 auto;
@@ -228,7 +227,7 @@ header {
 }
 
 @media(min-width:1400px){
-  
+
 }
 /* 
 h1 is the page's title
@@ -313,6 +312,13 @@ This is for the portofolio read more section
 .more-text-bttn:hover {
   background-color: #A2D870B7;
   color: #852F66;
+}
+.button1{
+  margin:15px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  margin-bottom:15px;
 }
 
 .moreText {
